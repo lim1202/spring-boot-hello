@@ -15,9 +15,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 
-/**
- * Test class for the {@link VetController}
- */
 @RunWith(SpringRunner.class)
 @WebMvcTest(GreetingController.class)
 public class GreetingTests {
