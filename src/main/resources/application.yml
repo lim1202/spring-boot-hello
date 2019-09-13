@@ -9,6 +9,10 @@ spring:
 spring:
   profiles: dev
 
+logging:
+  level:
+    com.demo: debug
+
 enviroment:
     name: Development
 
